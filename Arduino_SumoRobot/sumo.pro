@@ -1,4 +1,4 @@
-update=jue 21 jul 2016 14:41:44 ART
+update=jue 21 jul 2016 16:51:50 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,3 +28,5 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=lib/sumo
