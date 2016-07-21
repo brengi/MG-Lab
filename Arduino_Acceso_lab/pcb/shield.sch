@@ -1,83 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:st-microelectronics
-LIBS:Poncho_PLC
 LIBS:shield-cache
 EELAYER 25 0
 EELAYER END
@@ -99,7 +21,7 @@ U 1 1 5517C2C1
 P 9725 1875
 F 0 "P1" V 9675 1875 60  0000 C CNN
 F 1 "Power" V 9775 1875 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 9725 1875 60  0001 C CNN
+F 2 "" H 9725 1875 60  0001 C CNN
 F 3 "" H 9725 1875 60  0000 C CNN
 	1    9725 1875
 	1    0    0    -1  
@@ -110,7 +32,7 @@ U 1 1 5517C323
 P 9725 2675
 F 0 "P2" V 9675 2675 60  0000 C CNN
 F 1 "Analog" V 9775 2675 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm" H 9725 2675 60  0001 C CNN
+F 2 "" H 9725 2675 60  0001 C CNN
 F 3 "" H 9725 2675 60  0000 C CNN
 	1    9725 2675
 	1    0    0    -1  
@@ -121,7 +43,7 @@ U 1 1 5517C366
 P 10050 2575
 F 0 "P4" V 10000 2575 60  0000 C CNN
 F 1 "Digital" V 10100 2575 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 10050 2575 60  0001 C CNN
+F 2 "" H 10050 2575 60  0001 C CNN
 F 3 "" H 10050 2575 60  0000 C CNN
 	1    10050 2575
 	-1   0    0    -1  
@@ -132,7 +54,7 @@ U 1 1 5517C46C
 P 10050 1575
 F 0 "P3" V 10000 1575 60  0000 C CNN
 F 1 "Digital" V 10100 1575 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm" H 10050 1575 60  0001 C CNN
+F 2 "" H 10050 1575 60  0001 C CNN
 F 3 "" H 10050 1575 60  0000 C CNN
 	1    10050 1575
 	-1   0    0    -1  
@@ -196,7 +118,7 @@ U 1 1 551BBC06
 P 10875 650
 F 0 "P5" H 10955 650 40  0000 L CNN
 F 1 "CONN_1" H 10875 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10875 650 60  0001 C CNN
+F 2 "" H 10875 650 60  0001 C CNN
 F 3 "" H 10875 650 60  0000 C CNN
 	1    10875 650 
 	0    -1   -1   0   
@@ -207,7 +129,7 @@ U 1 1 551BBD10
 P 10950 650
 F 0 "P6" H 11030 650 40  0000 L CNN
 F 1 "CONN_1" H 10950 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10950 650 60  0001 C CNN
+F 2 "" H 10950 650 60  0001 C CNN
 F 3 "" H 10950 650 60  0000 C CNN
 	1    10950 650 
 	0    -1   -1   0   
@@ -218,7 +140,7 @@ U 1 1 551BBD30
 P 11025 650
 F 0 "P7" H 11105 650 40  0000 L CNN
 F 1 "CONN_1" H 11025 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11025 650 60  0001 C CNN
+F 2 "" H 11025 650 60  0001 C CNN
 F 3 "" H 11025 650 60  0000 C CNN
 	1    11025 650 
 	0    -1   -1   0   
@@ -229,7 +151,7 @@ U 1 1 551BBD52
 P 11100 650
 F 0 "P8" H 11180 650 40  0000 L CNN
 F 1 "CONN_1" H 11100 705 30  0001 C CNN
-F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11100 650 60  0001 C CNN
+F 2 "" H 11100 650 60  0001 C CNN
 F 3 "" H 11100 650 60  0000 C CNN
 	1    11100 650 
 	0    -1   -1   0   
@@ -248,7 +170,7 @@ U 1 1 578CE5B3
 P 3350 2425
 F 0 "P9" V 3300 2425 60  0000 C CNN
 F 1 "Power" V 3400 2425 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3350 2425 60  0001 C CNN
+F 2 "huellas:Pin_Header_Straight_1x08" H 3350 2425 60  0001 C CNN
 F 3 "" H 3350 2425 60  0000 C CNN
 	1    3350 2425
 	1    0    0    -1  
@@ -259,7 +181,7 @@ U 1 1 578CE5B9
 P 3350 3225
 F 0 "P10" V 3300 3225 60  0000 C CNN
 F 1 "Analog" V 3400 3225 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 3350 3225 60  0001 C CNN
+F 2 "huellas:Pin_Header_Straight_1x06" H 3350 3225 60  0001 C CNN
 F 3 "" H 3350 3225 60  0000 C CNN
 	1    3350 3225
 	1    0    0    -1  
@@ -270,7 +192,7 @@ U 1 1 578CE5BF
 P 3675 3125
 F 0 "P12" V 3625 3125 60  0000 C CNN
 F 1 "Digital" V 3725 3125 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3675 3125 60  0001 C CNN
+F 2 "huellas:Pin_Header_Straight_1x08" H 3675 3125 60  0001 C CNN
 F 3 "" H 3675 3125 60  0000 C CNN
 	1    3675 3125
 	-1   0    0    -1  
@@ -281,7 +203,7 @@ U 1 1 578CE5C5
 P 3675 2125
 F 0 "P11" V 3625 2125 60  0000 C CNN
 F 1 "Digital" V 3725 2125 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 3675 2125 60  0001 C CNN
+F 2 "huellas:Pin_Header_Straight_1x10" H 3675 2125 60  0001 C CNN
 F 3 "" H 3675 2125 60  0000 C CNN
 	1    3675 2125
 	-1   0    0    -1  
@@ -353,7 +275,7 @@ U 1 1 578CF6DA
 P 1975 5775
 F 0 "P14" H 1975 5975 50  0000 C CNN
 F 1 "Sensor1" V 2075 5775 50  0000 C CNN
-F 2 "Poncho_PLC:BORNERA3" H 1975 5775 50  0001 C CNN
+F 2 "huellas:BORNERA3" H 1975 5775 50  0001 C CNN
 F 3 "" H 1975 5775 50  0000 C CNN
 	1    1975 5775
 	1    0    0    -1  
@@ -364,7 +286,7 @@ U 1 1 578CF9C7
 P 1975 5300
 F 0 "P15" H 1975 5500 50  0000 C CNN
 F 1 "Sensor2" V 2075 5300 50  0000 C CNN
-F 2 "Poncho_PLC:BORNERA3" H 1975 5300 50  0001 C CNN
+F 2 "huellas:BORNERA3" H 1975 5300 50  0001 C CNN
 F 3 "" H 1975 5300 50  0000 C CNN
 	1    1975 5300
 	1    0    0    -1  
@@ -387,7 +309,7 @@ U 1 1 578D0DA3
 P 2000 4525
 F 0 "P13" H 2000 4925 50  0000 C CNN
 F 1 "Timer RTC" V 2100 4525 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 2000 4525 50  0001 C CNN
+F 2 "huellas:Socket_Strip_Straight_1x07" H 2000 4525 50  0001 C CNN
 F 3 "" H 2000 4525 50  0000 C CNN
 	1    2000 4525
 	1    0    0    -1  
@@ -413,7 +335,7 @@ U 1 1 578FA426
 P 4600 6300
 F 0 "P16" H 4600 6500 50  0000 C CNN
 F 1 "Luz1" V 4700 6300 50  0000 C CNN
-F 2 "Poncho_PLC:BORNERA3" H 4600 6300 50  0001 C CNN
+F 2 "huellas:BORNERA3" H 4600 6300 50  0001 C CNN
 F 3 "" H 4600 6300 50  0000 C CNN
 	1    4600 6300
 	0    1    1    0   
@@ -424,7 +346,7 @@ U 1 1 578FA5F0
 P 6375 6250
 F 0 "P17" H 6375 6450 50  0000 C CNN
 F 1 "Luz2" V 6475 6250 50  0000 C CNN
-F 2 "Poncho_PLC:BORNERA3" H 6375 6250 50  0001 C CNN
+F 2 "huellas:BORNERA3" H 6375 6250 50  0001 C CNN
 F 3 "" H 6375 6250 50  0000 C CNN
 	1    6375 6250
 	0    1    1    0   
@@ -681,7 +603,7 @@ U 1 1 578FD508
 P 4425 5050
 F 0 "K1" V 4425 5300 60  0000 C CNN
 F 1 "RELAY_C" V 4425 4815 60  0000 C CNN
-F 2 "Poncho_PLC:Relay_C" H 4425 5050 60  0001 C CNN
+F 2 "huellas:Relay_C" H 4425 5050 60  0001 C CNN
 F 3 "" H 4425 5050 60  0000 C CNN
 	1    4425 5050
 	0    -1   -1   0   
@@ -692,7 +614,7 @@ U 1 1 578FD787
 P 6200 5050
 F 0 "K2" V 6200 5300 60  0000 C CNN
 F 1 "RELAY_C" V 6200 4815 60  0000 C CNN
-F 2 "Poncho_PLC:Relay_C" H 6200 5050 60  0001 C CNN
+F 2 "huellas:Relay_C" H 6200 5050 60  0001 C CNN
 F 3 "" H 6200 5050 60  0000 C CNN
 	1    6200 5050
 	0    -1   -1   0   
@@ -733,7 +655,7 @@ U 1 1 578FE09C
 P 8900 4450
 F 0 "SP2" H 8800 4700 50  0000 C CNN
 F 1 "buzzer1" H 8800 4200 50  0000 C CNN
-F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" H 8900 4450 50  0001 C CNN
+F 2 "huellas:MagneticBuzzer_ProSignal_ABI-009-RC_RevA_25Oct2010" H 8900 4450 50  0001 C CNN
 F 3 "" H 8900 4450 50  0000 C CNN
 	1    8900 4450
 	1    0    0    -1  
@@ -744,7 +666,7 @@ U 1 1 578FE341
 P 8875 5375
 F 0 "SP1" H 8775 5625 50  0000 C CNN
 F 1 "buzzer2" H 8775 5125 50  0000 C CNN
-F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" H 8875 5375 50  0001 C CNN
+F 2 "huellas:MagneticBuzzer_ProSignal_ABI-009-RC_RevA_25Oct2010" H 8875 5375 50  0001 C CNN
 F 3 "" H 8875 5375 50  0000 C CNN
 	1    8875 5375
 	1    0    0    -1  
