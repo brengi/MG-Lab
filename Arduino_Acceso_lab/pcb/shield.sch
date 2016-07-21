@@ -268,8 +268,6 @@ Text Label 9050 1350 1    60   ~ 0
 5v
 Text Label 3325 2875 1    60   ~ 0
 3.3v
-Text Label 3200 2875 1    60   ~ 0
-5v
 $Comp
 L CONN_01X03 P14
 U 1 1 578CF6DA
@@ -465,9 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1925 9375 1925
 Wire Wire Line
-	9300 2025 9300 2125
-Wire Wire Line
-	9300 2125 9300 3150
+	9300 2025 9300 3150
 Wire Wire Line
 	8600 1725 9375 1725
 Wire Wire Line
@@ -548,15 +544,13 @@ Wire Wire Line
 Wire Wire Line
 	4550 2750 5525 2750
 Wire Wire Line
-	4550 2650 5275 2650
+	5475 2650 4550 2650
 Wire Wire Line
 	3325 3350 3525 3350
 Wire Wire Line
 	3200 3450 3525 3450
 Wire Wire Line
-	3450 3550 3450 3650
-Wire Wire Line
-	3450 3650 3450 4725
+	3450 3550 3450 4725
 Wire Wire Line
 	2750 3250 3525 3250
 Wire Wire Line
@@ -586,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3150 3525 3150
 Wire Wire Line
-	3200 2875 3200 3450
+	3200 2700 3200 3450
 Wire Wire Line
 	3075 2875 3075 3750
 Wire Wire Line
@@ -697,9 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	5525 2750 5525 2275
 Wire Wire Line
-	5275 2625 5475 2625
-Wire Wire Line
-	5475 2625 5475 2175
+	5475 2175 5475 2650
 Wire Wire Line
 	4650 6125 4650 6275
 Wire Wire Line
@@ -718,4 +710,19 @@ Wire Wire Line
 	4500 6475 4750 6475
 Text Notes 4050 6825 0    60   ~ 0
 EL OTRO ASI COMO ESTE
+$Comp
+L +5V #PWR?
+U 1 1 57915C02
+P 3200 2700
+F 0 "#PWR?" H 3200 2550 50  0001 C CNN
+F 1 "+5V" H 3200 2840 50  0000 C CNN
+F 2 "" H 3200 2700 50  0000 C CNN
+F 3 "" H 3200 2700 50  0000 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 2675 2475 0    60   ~ 0
+ACA TE PUSE UN +5V\n
+Text Notes 6350 3775 0    60   ~ 0
+ACA TE PUSE UNA TIERRA
 $EndSCHEMATC
