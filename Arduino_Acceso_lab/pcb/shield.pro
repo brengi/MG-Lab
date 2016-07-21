@@ -1,4 +1,4 @@
-update=jue 21 jul 2016 16:56:50 ART
+update=jue 21 jul 2016 17:30:37 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=lib/acceso
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,9 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=lib/acceso
+LibName2=power
