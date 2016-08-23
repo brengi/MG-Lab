@@ -1,4 +1,4 @@
-update=jue 21 jul 2016 16:53:52 ART
+update=mar 23 ago 2016 19:23:07 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,16 +20,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=lib/sumo
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,16 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=sumo-rescue
+LibName2=lib/sumo
+LibName3=power
+LibName4=Power_Management
+LibName5=powerconnectorskt
+LibName6=Power-in
+LibName7=led
+LibName8=led_rgb
+LibName9=LED3mmV
