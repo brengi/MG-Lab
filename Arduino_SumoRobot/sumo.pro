@@ -1,4 +1,4 @@
-update=mar 23 ago 2016 19:23:07 ART
+update=mar 23 ago 2016 20:30:11 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,13 +38,3 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=sumo-rescue
-LibName2=lib/sumo
-LibName3=power
-LibName4=Power_Management
-LibName5=powerconnectorskt
-LibName6=Power-in
-LibName7=led
-LibName8=led_rgb
-LibName9=LED3mmV
