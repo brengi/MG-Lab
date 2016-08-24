@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/diego/git/github/MG-Lab/Arduino_SumoRobot/sumo.sch)
-    (date "mar 23 ago 2016 20:56:38 ART")
+    (date "mar 23 ago 2016 21:27:43 ART")
     (tool "Eeschema 4.0.2+dfsg1-2~bpo8+1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -520,7 +520,7 @@
   (nets
     (net (code 1) (name "Net-(K1-Pad1)")
       (node (ref K1) (pin 1))
-      (node (ref P18) (pin 1)))
+      (node (ref P18) (pin 2)))
     (net (code 2) (name "Net-(1n2-Pad2)")
       (node (ref 1n2) (pin 2))
       (node (ref R11) (pin 2))
@@ -545,7 +545,7 @@
       (node (ref Q3) (pin 2)))
     (net (code 9) (name "Net-(K2-Pad1)")
       (node (ref K2) (pin 1))
-      (node (ref P17) (pin 2)))
+      (node (ref P17) (pin 1)))
     (net (code 10) (name +12V)
       (node (ref K1) (pin 3))
       (node (ref K4) (pin 3))
@@ -621,9 +621,9 @@
       (node (ref P15) (pin 2)))
     (net (code 23) (name "Net-(K4-Pad1)")
       (node (ref K4) (pin 1))
-      (node (ref P18) (pin 2)))
+      (node (ref P18) (pin 1)))
     (net (code 24) (name "Net-(K3-Pad1)")
-      (node (ref P17) (pin 1))
+      (node (ref P17) (pin 2))
       (node (ref K3) (pin 1)))
     (net (code 25) (name GND)
       (node (ref LD5) (pin K))

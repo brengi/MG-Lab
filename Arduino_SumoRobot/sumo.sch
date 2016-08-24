@@ -794,7 +794,7 @@ F 1 "CONN_01X02" V 11100 4875 50  0000 C CNN
 F 2 "Connect:bornier2" H 11000 4875 50  0001 C CNN
 F 3 "" H 11000 4875 50  0000 C CNN
 	1    11000 4875
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P17
@@ -805,7 +805,7 @@ F 1 "CONN_01X02" V 11075 2000 50  0000 C CNN
 F 2 "Connect:bornier2" H 10975 2000 50  0001 C CNN
 F 3 "" H 10975 2000 50  0000 C CNN
 	1    10975 2000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X04 P15
