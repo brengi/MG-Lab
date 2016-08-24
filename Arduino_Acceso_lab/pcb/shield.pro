@@ -1,4 +1,4 @@
-update=mié 24 ago 2016 12:52:05 ART
+update=mié 24 ago 2016 16:00:12 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,11 +38,3 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=shield-rescue
-LibName2=lib/acceso
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=shield_arduino
-LibName7=conn

@@ -1,17 +1,11 @@
 EESchema Schematic File Version 2
-LIBS:shield-rescue
-LIBS:acceso
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:shield_arduino
-LIBS:conn
 LIBS:shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "shield sist. monitoreo"
 Date "lun. 30 mars 2015"
 Rev ""
@@ -593,7 +587,7 @@ Wire Wire Line
 	3250 2500 3250 2475
 Connection ~ 3050 2500
 $Comp
-L +5V #PWR01
+L +5V-RESCUE-shield #PWR01
 U 1 1 579F3AFA
 P 2450 1925
 F 0 "#PWR01" H 2450 1775 50  0001 C CNN
@@ -604,7 +598,7 @@ F 3 "" H 2450 1925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR02
+L +5V-RESCUE-shield #PWR02
 U 1 1 579F3DB4
 P 4525 4775
 F 0 "#PWR02" H 4525 4625 50  0001 C CNN
@@ -615,7 +609,7 @@ F 3 "" H 4525 4775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR03
+L +5V-RESCUE-shield #PWR03
 U 1 1 579F3EEB
 P 7300 4775
 F 0 "#PWR03" H 7300 4625 50  0001 C CNN
@@ -626,7 +620,7 @@ F 3 "" H 7300 4775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR04
+L +5V-RESCUE-shield #PWR04
 U 1 1 579F3FFA
 P 8800 3900
 F 0 "#PWR04" H 8800 3750 50  0001 C CNN
@@ -637,7 +631,7 @@ F 3 "" H 8800 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L +5V-RESCUE-shield #PWR05
 U 1 1 579F40E1
 P 8800 3350
 F 0 "#PWR05" H 8800 3200 50  0001 C CNN
@@ -648,7 +642,7 @@ F 3 "" H 8800 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L +5V-RESCUE-shield #PWR06
 U 1 1 579F418C
 P 6975 775
 F 0 "#PWR06" H 6975 625 50  0001 C CNN
@@ -659,7 +653,7 @@ F 3 "" H 6975 775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-shield #PWR07
 U 1 1 579F4487
 P 2450 3975
 F 0 "#PWR07" H 2450 3725 50  0001 C CNN
@@ -670,7 +664,7 @@ F 3 "" H 2450 3975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-shield #PWR08
 U 1 1 579F4511
 P 6150 3975
 F 0 "#PWR08" H 6150 3725 50  0001 C CNN
@@ -681,7 +675,7 @@ F 3 "" H 6150 3975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-shield #PWR09
 U 1 1 579F4620
 P 4525 6250
 F 0 "#PWR09" H 4525 6000 50  0001 C CNN
@@ -692,7 +686,7 @@ F 3 "" H 4525 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-shield #PWR010
 U 1 1 579F46F3
 P 7300 6250
 F 0 "#PWR010" H 7300 6000 50  0001 C CNN
@@ -703,7 +697,7 @@ F 3 "" H 7300 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND-RESCUE-shield #PWR011
 U 1 1 579F485C
 P 8025 3500
 F 0 "#PWR011" H 8025 3250 50  0001 C CNN
@@ -714,7 +708,7 @@ F 3 "" H 8025 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND-RESCUE-shield #PWR012
 U 1 1 579F4943
 P 8025 3000
 F 0 "#PWR012" H 8025 2750 50  0001 C CNN
@@ -725,7 +719,7 @@ F 3 "" H 8025 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND-RESCUE-shield #PWR013
 U 1 1 579F4A3E
 P 7350 1700
 F 0 "#PWR013" H 7350 1450 50  0001 C CNN
@@ -736,7 +730,7 @@ F 3 "" H 7350 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND-RESCUE-shield #PWR014
 U 1 1 579F4B25
 P 8550 1750
 F 0 "#PWR014" H 8550 1500 50  0001 C CNN
@@ -747,7 +741,7 @@ F 3 "" H 8550 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND-RESCUE-shield #PWR015
 U 1 1 579F4B6C
 P 8500 2425
 F 0 "#PWR015" H 8500 2175 50  0001 C CNN
