@@ -1,4 +1,4 @@
-update=mar 23 ago 2016 20:30:11 ART
+update=jue 20 oct 2016 09:55:33 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,11 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=conn
+LibName2=device
+LibName3=linear
+LibName4=power
+LibName5=regul
+LibName6=lib/lm2576
+LibName7=dc-dc
