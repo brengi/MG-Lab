@@ -1,4 +1,4 @@
-update=jue 20 oct 2016 09:55:33 ART
+update=mié 02 nov 2016 12:46:41 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=print/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -46,3 +36,13 @@ LibName4=power
 LibName5=regul
 LibName6=lib/lm2576
 LibName7=dc-dc
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=print/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
