@@ -1,12 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:shield-rescue
-LIBS:acceso
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:shield_arduino
-LIBS:conn
-LIBS:lm2576
 LIBS:shield-cache
 EELAYER 25 0
 EELAYER END
@@ -14,9 +8,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "shield sist. monitoreo"
-Date "lun. 30 mars 2015"
+Date "2016-11-14"
 Rev ""
-Comp "Costa Leonel"
+Comp "Costa Leonel y Alejandro Franco"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -59,9 +53,9 @@ NoConn ~ 6875 800
 NoConn ~ 6875 900 
 NoConn ~ 6875 1400
 Text Label 825  7225 0    60   ~ 0
-3(**)
+REL1
 Text Label 3475 7175 0    60   ~ 0
-A3
+REL2
 $Comp
 L CONN_01X03 P12
 U 1 1 578FA426
@@ -88,8 +82,8 @@ $Comp
 L RELAY_C K1
 U 1 1 578FD508
 P 2175 6725
-F 0 "K1" V 2175 6975 60  0000 C CNN
-F 1 "RELAY_C" V 2175 6490 60  0000 C CNN
+F 0 "K1" V 2650 6675 60  0000 C CNN
+F 1 "RELAY_C" V 2575 6550 60  0000 C CNN
 F 2 "Poncho_PLC:Relay_C" H 2175 6725 60  0001 C CNN
 F 3 "" H 2175 6725 60  0000 C CNN
 	1    2175 6725
@@ -99,8 +93,8 @@ $Comp
 L RELAY_C K2
 U 1 1 578FD787
 P 4625 6650
-F 0 "K2" V 4625 6900 60  0000 C CNN
-F 1 "RELAY_C" V 4625 6415 60  0000 C CNN
+F 0 "K2" V 5100 6575 60  0000 C CNN
+F 1 "RELAY_C" V 5000 6450 60  0000 C CNN
 F 2 "Poncho_PLC:Relay_C" H 4625 6650 60  0001 C CNN
 F 3 "" H 4625 6650 60  0000 C CNN
 	1    4625 6650
@@ -172,10 +166,10 @@ F 3 "" H 4375 7175 50  0000 C CNN
 	1    4375 7175
 	1    0    0    -1  
 $EndComp
-Text Label 3075 3450 0    60   ~ 0
-A3
-Text Label 5300 3275 0    60   ~ 0
-3(**)
+Text Label 3125 3450 0    60   ~ 0
+REL2
+Text Label 5350 3275 0    60   ~ 0
+REL1
 $Comp
 L ARDUINO_as_UNO-RESCUE-shield SH1
 U 1 1 57976838
@@ -224,12 +218,12 @@ $EndComp
 $Comp
 L CONN_8 P4
 U 1 1 5797E46E
-P 5775 3225
-F 0 "P4" V 5725 3225 60  0000 C CNN
-F 1 "Digital" V 5825 3225 60  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 5775 3225 60  0001 C CNN
-F 3 "" H 5775 3225 60  0000 C CNN
-	1    5775 3225
+P 6100 3225
+F 0 "P4" V 6050 3225 60  0000 C CNN
+F 1 "Digital" V 6150 3225 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 6100 3225 60  0001 C CNN
+F 3 "" H 6100 3225 60  0000 C CNN
+	1    6100 3225
 	1    0    0    -1  
 $EndComp
 $Bitmap
@@ -542,7 +536,7 @@ C3 3D B3 8B F9 59 34 4C 4D 4D 0D 5B 9C BC 3F 70 4D 96 20 7E 77 7C A2 1A C7 C6 C6
 DB A1 27 9F 45 07 F1 6E 18 1F 1F 4F 4F 4F A7 6B 4D C9 08 79 99 4C 16 90 4F F9 F8 F8 78 56 56 16 
 9F 9A D9 D9 D9 5B B7 6E 5D B5 6A 15 F2 E4 79 3C 9E 19 33 66 24 24 04 E6 42 3A 7B F6 EC 5B 6F BD 
 75 74 74 94 E3 8F 3E 9F 8F DB B9 80 A7 F5 69 62 62 22 A0 BE C1 70 3F C1 FF 07 F5 DC 9C 93 4E 27 
-13 5B 00 00 00 00 49 45 4E 44 AE 42 60 82 9F 
+13 5B 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 $Bitmap
@@ -2366,7 +2360,7 @@ C2 18 FD BB 6B 7C FD BD 1D 60 79 23 F8 40 BE 06 C3 1A 08 39 8B 31 31 24 84 C0 D2
 12 B4 92 1F FA 3C FE 81 8F FF 03 7C 8E EC 35 00 82 4C BC 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
-Text Label 10075 5075 0    60   ~ 0
+Text Label 8325 5375 0    60   ~ 0
 rx-wifi
 $Comp
 L R R4
@@ -2487,7 +2481,7 @@ U 1 1 581A5E80
 P 625 5200
 F 0 "P6" H 625 5350 50  0000 C CNN
 F 1 "fuente" V 725 5200 50  0000 C CNN
-F 2 "Connect:PINHEAD1-2" H 625 5200 50  0001 C CNN
+F 2 "Connect:bornier2" H 625 5200 50  0001 C CNN
 F 3 "" H 625 5200 50  0000 C CNN
 	1    625  5200
 	-1   0    0    1   
@@ -2514,11 +2508,11 @@ F 3 "" H 8825 2175 50  0000 C CNN
 	1    8825 2175
 	1    0    0    1   
 $EndComp
-Text Label 5350 3175 2    60   ~ 0
+Text Label 5625 3375 2    60   ~ 0
 rx-wifi
-Text Label 5375 3375 2    60   ~ 0
+Text Label 5650 3175 2    60   ~ 0
 tx-wifi
-Text Label 8650 5375 2    60   ~ 0
+Text Label 10075 5075 2    60   ~ 0
 tx-wifi
 $Comp
 L R R6
@@ -2598,13 +2592,13 @@ Wire Wire Line
 Wire Wire Line
 	4900 2350 5275 2350
 Wire Wire Line
-	5150 2875 5425 2875
+	5150 2875 5750 2875
 Wire Wire Line
 	5150 2825 5150 2875
 Wire Wire Line
 	4900 2825 5150 2825
 Wire Wire Line
-	5100 2950 5100 2975
+	5150 2950 5150 2975
 Wire Wire Line
 	5125 3200 5125 3175
 Wire Wire Line
@@ -2614,19 +2608,19 @@ Wire Wire Line
 Wire Wire Line
 	4900 3325 5200 3325
 Wire Wire Line
-	5275 3450 5275 3375
+	5250 3450 5250 3375
 Wire Wire Line
-	4900 3450 5275 3450
+	4900 3450 5250 3450
 Wire Wire Line
-	5350 3475 5425 3475
+	5600 3475 5750 3475
 Wire Wire Line
-	5350 3575 5350 3475
+	5600 3575 5600 3475
 Wire Wire Line
-	4900 3575 5350 3575
+	4900 3575 5600 3575
 Wire Wire Line
-	5425 3700 5425 3575
+	5750 3700 5750 3575
 Wire Wire Line
-	4900 3700 5425 3700
+	4900 3700 5750 3700
 Wire Wire Line
 	3100 3700 3350 3700
 Wire Wire Line
@@ -2789,7 +2783,7 @@ Wire Wire Line
 	9050 5375 9050 5475
 Connection ~ 9050 5375
 Wire Wire Line
-	8700 5375 8650 5375
+	8325 5375 8700 5375
 Wire Wire Line
 	5350 1000 5350 1600
 Connection ~ 5350 1600
@@ -2811,11 +2805,11 @@ Wire Wire Line
 Wire Wire Line
 	8275 1450 8275 2550
 Wire Wire Line
-	5125 3175 5425 3175
+	5125 3175 5750 3175
 Wire Wire Line
-	5200 3275 5425 3275
+	5200 3275 5750 3275
 Wire Wire Line
-	5275 3375 5425 3375
+	5250 3375 5750 3375
 Wire Wire Line
 	3050 3425 3075 3425
 Wire Wire Line
@@ -2823,9 +2817,9 @@ Wire Wire Line
 Wire Wire Line
 	3225 2400 1925 2400
 Wire Wire Line
-	3250 2500 1925 2500
+	1925 2500 3250 2500
 Wire Wire Line
-	5100 2975 5425 2975
+	5150 2975 5750 2975
 Wire Wire Line
 	6000 4225 5850 4225
 Wire Wire Line
@@ -2835,12 +2829,12 @@ Wire Wire Line
 Wire Wire Line
 	6850 4625 7450 4625
 Wire Wire Line
-	4900 3075 5425 3075
+	4900 3075 5750 3075
 Wire Wire Line
 	4950 3075 4950 4625
 Connection ~ 4950 3075
 Wire Wire Line
-	4900 2950 5100 2950
+	4900 2950 5150 2950
 Wire Wire Line
 	5075 2950 5075 3775
 Wire Wire Line
@@ -2937,28 +2931,6 @@ Wire Wire Line
 	875  5150 825  5150
 Wire Wire Line
 	875  5250 875  5775
-$Comp
-L VCC #PWR01
-U 1 1 581CF548
-P 3950 4600
-F 0 "#PWR01" H 3950 4450 50  0001 C CNN
-F 1 "VCC" H 3950 4750 50  0000 C CNN
-F 2 "" H 3950 4600 50  0000 C CNN
-F 3 "" H 3950 4600 50  0000 C CNN
-	1    3950 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR02
-U 1 1 581CFCCF
-P 2400 1975
-F 0 "#PWR02" H 2400 1825 50  0001 C CNN
-F 1 "VCC" H 2400 2125 50  0000 C CNN
-F 2 "" H 2400 1975 50  0000 C CNN
-F 3 "" H 2400 1975 50  0000 C CNN
-	1    2400 1975
-	1    0    0    -1  
-$EndComp
 Connection ~ 3225 2350
 Wire Wire Line
 	2100 2600 2100 2875
@@ -3312,4 +3284,26 @@ $EndComp
 Wire Wire Line
 	2675 2000 2675 2500
 Connection ~ 2675 2500
+$Comp
+L VDD #PWR?
+U 1 1 582A51D7
+P 2400 1975
+F 0 "#PWR?" H 2400 1825 50  0001 C CNN
+F 1 "VDD" H 2400 2125 50  0000 C CNN
+F 2 "" H 2400 1975 50  0000 C CNN
+F 3 "" H 2400 1975 50  0000 C CNN
+	1    2400 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 582A5442
+P 3950 4600
+F 0 "#PWR?" H 3950 4450 50  0001 C CNN
+F 1 "VDD" H 3950 4750 50  0000 C CNN
+F 2 "" H 3950 4600 50  0000 C CNN
+F 3 "" H 3950 4600 50  0000 C CNN
+	1    3950 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

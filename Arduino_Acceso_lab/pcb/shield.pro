@@ -1,4 +1,4 @@
-update=mié 02 nov 2016 11:48:03 ART
+update=lun 14 nov 2016 16:53:10 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,17 +33,11 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
 LibName1=shield-rescue
-LibName2=lib/acceso
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=shield_arduino
-LibName7=conn
-LibName8=/home/pasante/Escritorio/fuente/lm2576
-[general]
-version=1
+LibName2=power
