@@ -17,7 +17,11 @@ la educación técnica secundaria y universitaria.
 
 ## Grupos MG-LAB
 ![Grupo1]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo1.jpg  "Grupo 1")
+De izquierda a derecha: Diego Brengi, xx, xx, Omar Milano y xx.
+
+
 ![Grupo2]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo2.jpg  "Grupo 2")
+De izquierda a derecha: Diego Brengi, Alejandro Franco, Fernando Flores, Omar Milano y Fernando Sosa.
 
 
 
