@@ -1,4 +1,4 @@
-update=jue 01 sep 2016 10:57:06 ART
+update=mié 02 nov 2016 11:48:03 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -46,3 +44,6 @@ LibName4=device
 LibName5=transistors
 LibName6=shield_arduino
 LibName7=conn
+LibName8=/home/pasante/Escritorio/fuente/lm2576
+[general]
+version=1
