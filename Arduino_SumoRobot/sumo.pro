@@ -1,4 +1,4 @@
-update=mié 02 nov 2016 12:46:41 ART
+update=mié 30 nov 2016 10:54:19 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -36,6 +36,8 @@ LibName4=power
 LibName5=regul
 LibName6=lib/lm2576
 LibName7=dc-dc
+LibName8=lib/sumo
+LibName9=sumo-cache
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
