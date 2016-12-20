@@ -1,4 +1,4 @@
-update=lun 14 nov 2016 16:53:10 ART
+update=lun 14 nov 2016 17:53:50 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,6 +38,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=shield-rescue
-LibName2=power
