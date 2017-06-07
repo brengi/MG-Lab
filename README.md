@@ -1,5 +1,5 @@
 # MG-Lab
-Producción del Laboratorio Mario Gatattafoni
+Producción del Laboratorio Mario Gattafoni
 
 ## Objetivos ##
 El MG-Lab trabaja con alumnos de colegios técnicos secundarios, bajo
