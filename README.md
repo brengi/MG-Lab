@@ -17,7 +17,8 @@ la educación técnica secundaria y universitaria.
 
 ## Grupos MG-LAB
 ![Grupo1]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo1.jpg  "Grupo 1")
-De izquierda a derecha: Diego Brengi, xx, xx, Omar Milano y xx.
+De izquierda a derecha: Diego Brengi, Juan Ignacio
+Napolillo, Nicolas David Luna, Omar Milano y Leonel Gabriel Costa.
 
 
 ![Grupo2]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo2.jpg  "Grupo 2")
