@@ -24,5 +24,7 @@ Napolillo, Nicolas David Luna, Omar Milano y Leonel Gabriel Costa.
 ![Grupo2]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo2.jpg  "Grupo 2")
 De izquierda a derecha: Diego Brengi, Alejandro Franco, Fernando Flores, Omar Milano y Fernando Sosa.
 
+![Grupo3]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo3.jpg  "Grupo 3")
+De izquierda a derecha: Omar Milano, Delfina Gonzalez, Gonzalo Daniel, Nelson Saade y Diego Brengi.
 
 
