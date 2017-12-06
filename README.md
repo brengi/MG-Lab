@@ -15,11 +15,17 @@ El laboratorio se bautiza con ese nombre en honor a Mario Gattafoni quien fue pr
 de Omar y Diego en la secundaria y en la universidad, y dedicó su vida a 
 la educación técnica secundaria y universitaria.
 
-## Grupos MG-LAB
+## Grupos MG-LAB 2017
+
+![Grupo4]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo4_2017A.jpg "Grupo 4")
+De izquierda a derecha: Diego Brengi, XX1, XX2, XX3 y Omar Milano.
+
+
+## Grupos MG-LAB 2016
+
 ![Grupo1]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo1.jpg  "Grupo 1")
 De izquierda a derecha: Diego Brengi, Juan Ignacio
 Napolillo, Nicolas David Luna, Omar Milano y Leonel Gabriel Costa.
-
 
 ![Grupo2]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo2.jpg  "Grupo 2")
 De izquierda a derecha: Diego Brengi, Alejandro Franco, Fernando Flores, Omar Milano y Fernando Sosa.
