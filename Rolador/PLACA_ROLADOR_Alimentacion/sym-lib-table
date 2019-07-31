@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name placa-de-tension-rolador-rescue)(type Legacy)(uri "${KIPRJMOD}/placa de tension rolador-rescue.lib")(options "")(descr ""))
+)

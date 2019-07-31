@@ -1,0 +1,589 @@
+EESchema Schematic File Version 4
+LIBS:placa de tension rolador-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Placa de alimentacion rolador"
+Date "2019-07-01"
+Rev "3"
+Comp "Cieri & Sairez"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L placa-de-tension-rolador-rescue:CONN_01X01 P1
+U 1 1 5CFA7618
+P 1750 3050
+F 0 "P1" H 1750 3150 50  0000 C CNN
+F 1 "In (Arduino)" V 1850 3050 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0000 C CNN
+	1    1750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CFA76DB
+P 2150 3050
+F 0 "R1" V 2230 3050 50  0000 C CNN
+F 1 "220" V 2150 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2080 3050 50  0001 C CNN
+F 3 "" H 2150 3050 50  0000 C CNN
+	1    2150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5CFA793A
+P 3000 2300
+F 0 "D1" H 3000 2400 50  0000 C CNN
+F 1 "1N4001" H 3000 2200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 3000 2300 50  0001 C CNN
+F 3 "" H 3000 2300 50  0000 C CNN
+	1    3000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5CFA7BF0
+P 2700 3650
+F 0 "#PWR01" H 2700 3400 50  0001 C CNN
+F 1 "GND" H 2700 3500 50  0000 C CNN
+F 2 "" H 2700 3650 50  0000 C CNN
+F 3 "" H 2700 3650 50  0000 C CNN
+	1    2700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CFA7DA6
+P 2700 3450
+F 0 "R2" V 2780 3450 50  0000 C CNN
+F 1 "1K" V 2700 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 3450 50  0001 C CNN
+F 3 "" H 2700 3450 50  0000 C CNN
+	1    2700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J3
+U 1 1 5CFA803B
+P 4350 2900
+F 0 "J3" H 4350 3150 50  0000 C TNN
+F 1 "Input (42V)" V 4200 2900 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4350 2675 50  0001 C CNN
+F 3 "" H 4325 2900 50  0001 C CNN
+	1    4350 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J1
+U 1 1 5CFA838B
+P 3000 2600
+F 0 "J1" H 3000 2850 50  0000 C TNN
+F 1 "Motor" V 2850 2600 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3000 2375 50  0001 C CNN
+F 3 "" H 2975 2600 50  0001 C CNN
+	1    3000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J2
+U 1 1 5CFA851D
+P 3700 2600
+F 0 "J2" H 3700 2850 50  0000 C TNN
+F 1 "On/Off" V 3550 2600 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3700 2375 50  0001 C CNN
+F 3 "" H 3675 2600 50  0001 C CNN
+	1    3700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CFA8596
+P 3950 3100
+F 0 "#PWR02" H 3950 2850 50  0001 C CNN
+F 1 "GND" H 3950 2950 50  0000 C CNN
+F 2 "" H 3950 3100 50  0000 C CNN
+F 3 "" H 3950 3100 50  0000 C CNN
+	1    3950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5CFA87AF
+P 3450 3950
+F 0 "#PWR03" H 3450 3700 50  0001 C CNN
+F 1 "GND" H 3450 3800 50  0000 C CNN
+F 2 "" H 3450 3950 50  0000 C CNN
+F 3 "" H 3450 3950 50  0000 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CFA8B0B
+P 3450 3050
+F 0 "R3" V 3530 3050 50  0000 C CNN
+F 1 "10K" V 3450 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 3050 50  0001 C CNN
+F 3 "" H 3450 3050 50  0000 C CNN
+	1    3450 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:7805 U1
+U 1 1 5CFA8F8F
+P 4300 3450
+F 0 "U1" H 4450 3254 50  0000 C CNN
+F 1 "7805" H 4300 3650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4300 3450 50  0001 C CNN
+F 3 "" H 4300 3450 50  0000 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CFA968B
+P 4800 3650
+F 0 "C2" H 4825 3750 50  0000 L CNN
+F 1 "0.1U" H 4825 3550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W6.0mm_P5.00mm" H 4838 3500 50  0001 C CNN
+F 3 "" H 4800 3650 50  0000 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J5
+U 1 1 5CFA9852
+P 5900 2800
+F 0 "J5" H 5900 3050 50  0000 C TNN
+F 1 "Out (5V)" V 5750 2800 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 2575 50  0001 C CNN
+F 3 "" H 5875 2800 50  0001 C CNN
+	1    5900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J6
+U 1 1 5CFA99AD
+P 5900 3350
+F 0 "J6" H 5900 3600 50  0000 C TNN
+F 1 "Out (5V)" V 5750 3350 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 3125 50  0001 C CNN
+F 3 "" H 5875 3350 50  0001 C CNN
+	1    5900 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J7
+U 1 1 5CFA9A2B
+P 5900 4050
+F 0 "J7" H 5900 4300 50  0000 C TNN
+F 1 "Out (5V)" V 5750 4050 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 3825 50  0001 C CNN
+F 3 "" H 5875 4050 50  0001 C CNN
+	1    5900 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J8
+U 1 1 5CFA9AFE
+P 5950 4750
+F 0 "J8" H 5950 5000 50  0000 C TNN
+F 1 "Out (5V)" V 5800 4750 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5950 4525 50  0001 C CNN
+F 3 "" H 5925 4750 50  0001 C CNN
+	1    5950 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L placa-de-tension-rolador-rescue:Screw_Terminal_1x02 J4
+U 1 1 5CFA9CB6
+P 5900 2250
+F 0 "J4" H 5900 2500 50  0000 C TNN
+F 1 "Out (5V)" V 5750 2250 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 2025 50  0001 C CNN
+F 3 "" H 5875 2250 50  0001 C CNN
+	1    5900 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CFAA6B4
+P 5650 4350
+F 0 "#PWR04" H 5650 4100 50  0001 C CNN
+F 1 "GND" H 5650 4200 50  0000 C CNN
+F 2 "" H 5650 4350 50  0000 C CNN
+F 3 "" H 5650 4350 50  0000 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5CFAA7A3
+P 5750 5000
+F 0 "#PWR05" H 5750 4750 50  0001 C CNN
+F 1 "GND" H 5750 4850 50  0000 C CNN
+F 2 "" H 5750 5000 50  0000 C CNN
+F 3 "" H 5750 5000 50  0000 C CNN
+	1    5750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5CFAA83A
+P 5650 3100
+F 0 "#PWR06" H 5650 2850 50  0001 C CNN
+F 1 "GND" H 5650 2950 50  0000 C CNN
+F 2 "" H 5650 3100 50  0000 C CNN
+F 3 "" H 5650 3100 50  0000 C CNN
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5CFAB331
+P 5700 3700
+F 0 "#PWR08" H 5700 3450 50  0001 C CNN
+F 1 "GND" H 5700 3550 50  0000 C CNN
+F 2 "" H 5700 3700 50  0000 C CNN
+F 3 "" H 5700 3700 50  0000 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener 9V1
+U 1 1 5D021889
+P 3450 3700
+F 0 "9V1" H 3450 3800 50  0000 C CNN
+F 1 "D_Zener" H 3450 3600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 3450 3700 50  0001 C CNN
+F 3 "" H 3450 3700 50  0001 C CNN
+	1    3450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG09
+U 1 1 5D027756
+P 1700 3800
+F 0 "#FLG09" H 1700 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 3950 50  0000 C CNN
+F 2 "" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+	1    1700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5D027CD2
+P 1700 3950
+F 0 "#PWR010" H 1700 3700 50  0001 C CNN
+F 1 "GND" H 1700 3800 50  0000 C CNN
+F 2 "" H 1700 3950 50  0000 C CNN
+F 3 "" H 1700 3950 50  0000 C CNN
+	1    1700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3050 2000 3050
+Wire Wire Line
+	2400 3050 2300 3050
+Wire Wire Line
+	2700 2300 2700 2800
+Wire Wire Line
+	2700 2800 2900 2800
+Wire Wire Line
+	2700 2300 2850 2300
+Connection ~ 2700 2800
+Wire Wire Line
+	3150 2300 3300 2300
+Wire Wire Line
+	2700 3250 2700 3300
+Wire Wire Line
+	2700 3650 2700 3600
+Wire Wire Line
+	3100 2800 3300 2800
+Wire Wire Line
+	4150 3000 3950 3000
+Wire Wire Line
+	3950 3000 3950 3100
+Wire Wire Line
+	3450 2800 3450 2900
+Connection ~ 3450 2800
+Wire Wire Line
+	3450 3200 3450 3400
+Connection ~ 3450 3400
+Wire Wire Line
+	5100 2150 5100 2700
+Connection ~ 5100 3950
+Wire Wire Line
+	5100 2150 5300 2150
+Connection ~ 5100 3400
+Wire Wire Line
+	5700 2700 5300 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	3300 2300 3300 2800
+Connection ~ 3300 2800
+Wire Wire Line
+	3450 3850 3450 3950
+Wire Wire Line
+	1700 3800 1700 3950
+Wire Wire Line
+	4300 3700 4300 3950
+Connection ~ 4300 3950
+Wire Wire Line
+	4800 3950 4800 3800
+Wire Wire Line
+	4800 3500 4800 3400
+Wire Wire Line
+	4700 3400 4800 3400
+Connection ~ 4800 3400
+Wire Wire Line
+	2700 2800 2700 2850
+Wire Wire Line
+	3450 2800 3600 2800
+Wire Wire Line
+	3450 3400 3450 3550
+Wire Wire Line
+	5100 3950 5100 4650
+Wire Wire Line
+	5100 3400 5100 3950
+Wire Wire Line
+	3300 2800 3450 2800
+Wire Wire Line
+	4300 3950 4800 3950
+Wire Wire Line
+	4800 3400 5100 3400
+Text Notes 2600 3300 2    50   ~ 0
+Transistor de control\n
+Text Notes 3250 3800 1    50   ~ 0
+Divisor de tension
+Text Notes 5000 3350 1    50   ~ 0
+Salidas (5V)
+$Comp
+L Transistor_BJT:TIP41C Q1
+U 1 1 5D0D1CC6
+P 2600 3050
+F 0 "Q1" H 2791 3096 50  0000 L CNN
+F 1 "TIP41C" H 2791 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2850 2975 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 2600 3050 50  0001 L CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5D0D4B97
+P 4150 2700
+F 0 "#PWR0101" H 4150 2550 50  0001 C CNN
+F 1 "VCC" H 4167 2873 50  0000 C CNN
+F 2 "" H 4150 2700 50  0001 C CNN
+F 3 "" H 4150 2700 50  0001 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2800 4150 2800
+Wire Wire Line
+	4150 2700 4150 2800
+Connection ~ 4150 2800
+$Comp
+L power:VCC #PWR0102
+U 1 1 5D0D716D
+P 1250 4050
+F 0 "#PWR0102" H 1250 3900 50  0001 C CNN
+F 1 "VCC" H 1268 4223 50  0000 C CNN
+F 2 "" H 1250 4050 50  0001 C CNN
+F 3 "" H 1250 4050 50  0001 C CNN
+	1    1250 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D0D7CC6
+P 1250 3850
+F 0 "#FLG0101" H 1250 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 4000 50  0000 C CNN
+F 2 "" H 1250 3850 50  0001 C CNN
+F 3 "" H 1250 3850 50  0001 C CNN
+	1    1250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3850 1250 4050
+Wire Wire Line
+	3450 3400 3750 3400
+Wire Wire Line
+	3450 3950 3750 3950
+Wire Wire Line
+	3750 3500 3750 3400
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3900 3400
+Wire Wire Line
+	3750 3800 3750 3950
+Connection ~ 3750 3950
+Wire Wire Line
+	3750 3950 4300 3950
+$Comp
+L Device:CP1 C4
+U 1 1 5D0DD499
+P 5300 2900
+F 0 "C4" H 5415 2946 50  0000 L CNN
+F 1 "220uf" H 5415 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5300 2900 50  0001 C CNN
+F 3 "~" H 5300 2900 50  0001 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 5D0DDE62
+P 5300 3550
+F 0 "C5" H 5415 3596 50  0000 L CNN
+F 1 "220uf" H 5415 3505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5300 3550 50  0001 C CNN
+F 3 "~" H 5300 3550 50  0001 C CNN
+	1    5300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C6
+U 1 1 5D0DE2E4
+P 5300 4150
+F 0 "C6" H 5415 4196 50  0000 L CNN
+F 1 "220uf" H 5415 4105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5300 4150 50  0001 C CNN
+F 3 "~" H 5300 4150 50  0001 C CNN
+	1    5300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C7
+U 1 1 5D0DEB4B
+P 5400 4850
+F 0 "C7" H 5515 4896 50  0000 L CNN
+F 1 "220uf" H 5515 4805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5400 4850 50  0001 C CNN
+F 3 "~" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4150 5700 4300
+Wire Wire Line
+	5700 4300 5650 4300
+Connection ~ 5650 4300
+Wire Wire Line
+	5650 4300 5650 4350
+Wire Wire Line
+	5300 3700 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 2350 5700 2550
+Wire Wire Line
+	5300 3050 5650 3050
+Wire Wire Line
+	5650 3050 5650 3100
+Wire Wire Line
+	5700 2900 5700 3050
+Wire Wire Line
+	5700 3050 5650 3050
+Wire Wire Line
+	5100 2700 5100 3250
+Connection ~ 5100 3250
+Wire Wire Line
+	5100 3250 5100 3400
+Wire Wire Line
+	5100 3250 5300 3250
+Wire Wire Line
+	5300 3400 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5700 3250
+Wire Wire Line
+	5300 2750 5300 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5300 2700 5100 2700
+Connection ~ 5300 2150
+Wire Wire Line
+	5300 2150 5700 2150
+Wire Wire Line
+	5100 3950 5300 3950
+Wire Wire Line
+	5300 4300 5650 4300
+Wire Wire Line
+	5300 4000 5300 3950
+Connection ~ 5300 3950
+Wire Wire Line
+	5300 3950 5700 3950
+Wire Wire Line
+	5100 4650 5400 4650
+Wire Wire Line
+	5750 4850 5750 5000
+Connection ~ 3450 3950
+$Comp
+L Device:C C1
+U 1 1 5CFA93BF
+P 3750 3650
+F 0 "C1" H 3775 3750 50  0000 L CNN
+F 1 "0.1U" H 3775 3550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W6.0mm_P5.00mm" H 3788 3500 50  0001 C CNN
+F 3 "" H 3750 3650 50  0000 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4700 5400 4650
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 5750 4650
+Wire Wire Line
+	5400 5000 5750 5000
+Connection ~ 5750 5000
+Wire Wire Line
+	5700 3450 5700 3700
+Connection ~ 5650 3050
+Wire Wire Line
+	5300 2250 5300 2150
+$Comp
+L Device:CP1 C3
+U 1 1 5D0DCC46
+P 5300 2400
+F 0 "C3" H 5415 2446 50  0000 L CNN
+F 1 "220uf" H 5415 2355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5300 2400 50  0001 C CNN
+F 3 "~" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2550 5500 2550
+Connection ~ 5500 2550
+Wire Wire Line
+	5700 2550 5500 2550
+Wire Wire Line
+	5500 2550 5500 2600
+$Comp
+L power:GND #PWR07
+U 1 1 5CFAAAAA
+P 5500 2600
+F 0 "#PWR07" H 5500 2350 50  0001 C CNN
+F 1 "GND" H 5500 2450 50  0000 C CNN
+F 2 "" H 5500 2600 50  0000 C CNN
+F 3 "" H 5500 2600 50  0000 C CNN
+	1    5500 2600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1800 3300 2600 3300
+Wire Notes Line
+	2600 3300 2650 3200
+$EndSCHEMATC
