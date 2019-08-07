@@ -15,6 +15,13 @@ El laboratorio se bautiza con ese nombre en honor a Mario Gattafoni quien fue pr
 de Omar y Diego en la secundaria y en la universidad, y dedicó su vida a 
 la educación técnica secundaria y universitaria.
 
+## Grupos MG-LAB 2018
+
+
+![Grupo2018]( https://raw.githubusercontent.com/brengi/MG-Lab/master/doc/fotos_grupales/MGLAB_Grupo2018b.jpg  "Grupo 2018")
+De izquierda a derecha: Omar Milano, ... y Diego Brengi.
+
+
 ## Grupos MG-LAB 2017
 
 
