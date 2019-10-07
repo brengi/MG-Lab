@@ -1,0 +1,3 @@
+https://iotdesignpro.com/projects/how-trigger-led-using-ifttt-and-esp32-email-notification
+https://programarfacil.com/blog/arduino-blog/como-ifttt-arduino-nodemcu/
+https://techtutorialsx.com/2017/05/20/esp32-http-post-requests/
